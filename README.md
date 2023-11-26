@@ -2,4 +2,4 @@
 
 
 
-![dsatcn](photo\dsatcn.png)
+![dsatcn](https://github.com/BaenRH/DSATCN/blob/main/photo/dsatcn.png)
