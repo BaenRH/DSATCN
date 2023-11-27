@@ -10,7 +10,7 @@
 
 ## Result
 
-Comparisons of Averaged EEG Reconstruction Accuracies Obtained by Different Methods on the EEGDenoiseNet
+- Comparisons of Averaged EEG Reconstruction Accuracies Obtained by Different Methods on the EEGDenoiseNet
 
 |                 | RRMSE_{s}  | RRMSE_{t}  | CC         | SNR (dB)    |
 | --------------- | ---------- | ---------- | ---------- | ----------- |
@@ -21,7 +21,9 @@ Comparisons of Averaged EEG Reconstruction Accuracies Obtained by Different Meth
 | Novel CNN       | 0.4685     | 0.4496     | 0.8637     | 8.2046      |
 | Proposed DSATCN | **0.3726** | **0.3530** | **0.9023** | **10.9798** |
 
+- 
 
+![dsatcn](https://github.com/BaenRH/DSATCN/blob/main/photo/real.png)
 
 ## Installation
 
