@@ -12,7 +12,7 @@
 
 - Comparisons of Averaged EEG Reconstruction Accuracies Obtained by Different Methods on the EEGDenoiseNet
 
-|                 | RRMSE_{s}  | RRMSE_{t}  | CC         | SNR (dB)    |
+|                 | RRMSE_s  | RRMSE_t  | CC         | SNR (dB)    |
 | --------------- | ---------- | ---------- | ---------- | ----------- |
 | EEMD-ICA        | 2.4924     | 0.9892     | 0.6963     | 1.3211      |
 | SSA-ICA         | 2.1909     | 0.9558     | 0.6981     | 1.8111      |
