@@ -26,8 +26,8 @@ class EEGData(Dataset):
     def __getitem__(self, index):   # 实际操作
         eeg_mix = self.x_data[index]  # 混合信号
         eeg_clean = self.y_label[index]  # 干净信号（标签）
-        lpeeg_mix = self.butter_lowpass(eeg_mix, 20, 500)  # 混合EEG 低通
-        lpeeg_clean = self.butter_lowpass(eeg_clean, 20, 500)  # 干净EEG  低通
+        lpeeg_mix = self.butter_lowpass(eeg_mix, 20, 512)  # 混合EEG 低通
+        lpeeg_clean = self.butter_lowpass(eeg_clean, 20, 512)  # 干净EEG  低通
 
         sample = {'eeg_mix': eeg_mix, 'eeg_clean': eeg_clean,
                   'lpeeg_mix': lpeeg_mix, 'lpeeg_clean': lpeeg_clean}  # 组成pytorch需要的数据格式
